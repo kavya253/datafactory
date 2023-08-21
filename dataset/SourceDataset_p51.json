@@ -1,0 +1,108 @@
+{
+	"name": "SourceDataset_p51",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "house_prices (1).csv",
+				"fileSystem": "input"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Index",
+				"type": "String"
+			},
+			{
+				"name": "Title",
+				"type": "String"
+			},
+			{
+				"name": "Description",
+				"type": "String"
+			},
+			{
+				"name": "Amount(in rupees)",
+				"type": "String"
+			},
+			{
+				"name": "Price (in rupees)",
+				"type": "String"
+			},
+			{
+				"name": "location",
+				"type": "String"
+			},
+			{
+				"name": "Carpet Area",
+				"type": "String"
+			},
+			{
+				"name": "Status",
+				"type": "String"
+			},
+			{
+				"name": "Floor",
+				"type": "String"
+			},
+			{
+				"name": "Transaction",
+				"type": "String"
+			},
+			{
+				"name": "Furnishing",
+				"type": "String"
+			},
+			{
+				"name": "facing",
+				"type": "String"
+			},
+			{
+				"name": "overlooking",
+				"type": "String"
+			},
+			{
+				"name": "Society",
+				"type": "String"
+			},
+			{
+				"name": "Bathroom",
+				"type": "String"
+			},
+			{
+				"name": "Balcony",
+				"type": "String"
+			},
+			{
+				"name": "Car Parking",
+				"type": "String"
+			},
+			{
+				"name": "Ownership",
+				"type": "String"
+			},
+			{
+				"name": "Super Area",
+				"type": "String"
+			},
+			{
+				"name": "Dimensions",
+				"type": "String"
+			},
+			{
+				"name": "Plot Area",
+				"type": "String"
+			}
+		]
+	}
+}
