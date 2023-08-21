@@ -1,7 +1,9 @@
 {
 	"name": "trigger1",
 	"properties": {
-		"annotations": [],
+		"annotations": [
+			"fast"
+		],
 		"runtimeState": "Started",
 		"pipelines": [
 			{
