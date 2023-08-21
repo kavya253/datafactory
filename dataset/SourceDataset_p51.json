@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "house_prices (1).csv",
+				"fileName": "gender_based_IMR.csv",
 				"fileSystem": "input"
 			},
 			"columnDelimiter": ",",
